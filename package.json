@@ -1,0 +1,37 @@
+{
+  "name": "cellworks",
+  "version": "1.0.0",
+  "description": "Cellworks Repair",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DanMizu",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "electron": "^18.1.0"
+  },
+  "build": {
+    "appId": "com.cellworksrepair.app",
+    "productName": "Cellworks Repair",
+    "copyright": "Copyright © Cellworks",
+    "mac": {
+      "icon": "./public/icons/mac/icon.icns",
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "icon": "./public/icons/png/256x256.png"
+    },
+    "files": [
+      "./build/**/*",
+      "./dist/**/*",
+      "./node_modules/**/*",
+      "./public/**/*",
+      "*.js"
+    ],
+    "directories": {
+      "buildResources": "public"
+    }
+  }
+}
