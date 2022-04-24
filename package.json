@@ -21,7 +21,7 @@
       "category": "public.app-category.utilities"
     },
     "win": {
-      "icon": "./public/icons/png/256x256.png"
+      "icon": "./public/icons/ico/icon.ico"
     },
     "files": [
       "./build/**/*",
